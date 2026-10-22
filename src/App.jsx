@@ -29,7 +29,6 @@ export default function App() {
       throw new Error("Simulación de servidor de Traccar caído o bloqueado por CORS.");
 
       await loginUser("admin", "admin");
-  
 
       // 2. Obtener dispositivos
       const deviceList = await fetchDevices();
