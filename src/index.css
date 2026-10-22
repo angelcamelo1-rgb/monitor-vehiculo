@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-100 text-slate-900 dark:bg-[#070b14] dark:text-slate-100 transition-colors duration-300;
+  
+  /* Textura de grilla técnica de rastreo GPS muy sutil */
+  background-image: radial-gradient(rgba(14, 165, 233, 0.07) 1.5px, transparent 1.5px);
+  background-size: 32px 32px;
+  
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+/* Efecto de barra de desplazamiento estilizada */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.5);
+}
+::-webkit-scrollbar-thumb {
+  background: #0ea5e9;
+  border-radius: 4px;
+}
