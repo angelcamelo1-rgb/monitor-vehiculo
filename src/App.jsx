@@ -25,9 +25,7 @@ export default function App() {
       setLoading(true);
       setError(null);
 
-      // SIMULACIÓN MANUAL DE ERROR:
-      throw new Error("Simulación de servidor de Traccar caído o bloqueado por CORS.");
-
+      // 1. Autenticación con credenciales estándar de prueba de Traccar
       await loginUser("admin", "admin");
 
       // 2. Obtener dispositivos
