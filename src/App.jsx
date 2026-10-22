@@ -25,8 +25,11 @@ export default function App() {
       setLoading(true);
       setError(null);
 
-      // 1. Autenticación con credenciales estándar de prueba de Traccar
+      // SIMULACIÓN MANUAL DE ERROR:
+      throw new Error("Simulación de servidor de Traccar caído o bloqueado por CORS.");
+
       await loginUser("admin", "admin");
+  
 
       // 2. Obtener dispositivos
       const deviceList = await fetchDevices();
