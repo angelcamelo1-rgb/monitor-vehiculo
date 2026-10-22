@@ -34,6 +34,6 @@ Aplicación web de una sola página (SPA) desarrollada como prueba técnica, dis
 Sigue estos pasos para clonar y ejecutar el proyecto en tu máquina local:
 
 1. **Clonar el repositorio:**
-git clone https://github.com/tu-usuario/monitor-vehiculo.git
+git clone https://github.com/angelcamelo1-rgb/monitor-vehiculo.git
 cd monitor-vehiculo
    cd monitor-vehiculo
